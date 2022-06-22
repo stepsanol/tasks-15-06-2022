@@ -1,6 +1,7 @@
 const array1 = [5, 2, 1, -10, 8];
 const array2 = [5, 2, 1, -9, 3, 7]; 
 
+
 function union(array1, array2) {
     const arr = [...array1, ...array2]
     const result = [];
